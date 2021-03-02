@@ -1,10 +1,10 @@
 
 function insert_Row(){
-var a=document.getElementById('sampleTable').insertRow(0);
-var b = a.insertCell(0);
-var c = a.insertCell(1);
-b.innerHTML="New Cell1";
-c.innerHTML="New Cell2";
+var tavolo=document.getElementById('sampleTable').insertRow(0);
+var sedia = tavolo.insertCell(0);
+var chair = tavolo.insertCell(1);
+sedia.innerHTML="New Cell1";
+chair.innerHTML="New Cell2";
 }
 
 

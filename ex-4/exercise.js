@@ -1,5 +1,6 @@
 
 function removecolor(){
-var x=document.getElementById("colorSelect");
-x.remove(x.selectedIndex);
+var numOfColor=document.getElementById("colorSelect");
+numOfColor.remove(numOfColor.selectedIndex);
 }
+
